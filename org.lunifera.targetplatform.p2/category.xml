@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature id="org.lunifera.targetplatform.feature.ide">
-      <category name="lunifera_targetplatform"/>
-   </feature>
    <feature id="org.lunifera.targetplatform.feature.runtime">
       <category name="lunifera_targetplatform"/>
    </feature>
