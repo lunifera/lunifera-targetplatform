@@ -1,0 +1,116 @@
+<!--#======================================================================= -->
+<!--# Copyright (c) 2012, 2013 Committers of lunifera.org - Lunifera.org. -->
+<!--# All rights reserved. This program and the accompanying materials -->
+<!--# are made available under the terms of the Eclipse Public License v1.0 -->
+<!--# which accompanies this distribution, and is available at -->
+<!--# http://www.eclipse.org/legal/epl-v10.html -->
+<!--# -->
+<!--# Contributors: -->
+<!--# Klemens Edler - initial API and implementation -->
+<!--#======================================================================= -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.lunifera.releng.maven</groupId>
+		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
+		<version>0.12.5-SNAPSHOT</version>
+	</parent>
+
+	<groupId>org.lunifera.targetplatform</groupId>
+	<artifactId>org.lunifera.targetplatform.p2</artifactId>
+	<version>0.9.1-SNAPSHOT</version>
+	<packaging>eclipse-repository</packaging>
+
+	<properties>
+		<lunifera.deployment.p2.label>dependencies</lunifera.deployment.p2.label>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>e4tools</id>
+			<url>http://download.eclipse.org/e4/downloads/drops/S-0.17-201501051100/repository</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
+
+
+
+	<profiles>
+		<profile>
+			<id>build.p2</id>
+			<activation>
+				<property>
+					<name>lunifera.build.p2</name>
+				</property>
+			</activation>
+			<properties>
+				<lunifera.deployment.p2.origin.dir>${project.build.directory}/repository</lunifera.deployment.p2.origin.dir>
+				<xtext-p2>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</xtext-p2>
+				<bpmnmodeler-p2>http://download.eclipse.org/bpmn2-modeler/updates/nightly/luna/</bpmnmodeler-p2>
+				<drools-p2>http://downloads.jboss.org/jbpm/release/6.0.0.Final/updatesite/</drools-p2>
+				<ecliptical-p2>http://download.eclipticalsoftware.com/updates</ecliptical-p2>
+				<ecliptical-backup-p2>http://lun.lunifera.org/downloads/p2/mirrors/ecliptical/</ecliptical-backup-p2>
+				<gemini-dbaccess-p2>http://download.eclipse.org/gemini/updates/dbaccess/1.1.0</gemini-dbaccess-p2>
+				<gemini-jpa-p2>http://download.eclipse.org/gemini/jpa/updates</gemini-jpa-p2>
+				<gemini-naming-p2>http://download.eclipse.org/gemini/updates/naming/1.0.5/</gemini-naming-p2>
+				<associate.p2>
+					${lunifera.build.eclipse.platform.p2.url},${orbit-site},${xtext-p2},${bpmnmodeler-p2},${drools-p2},
+					${lunifera.build.remote.federated.p2.url},${ecliptical-p2},${ecliptical-backup-p2},${gemini-dbaccess-p2},
+					${gemini-jpa-p2},${gemini-naming-p2}
+				</associate.p2>
+			</properties>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>create.p2.inf</id>
+								<phase>package</phase>
+								<configuration>
+									<quiet>true</quiet>
+									<target>
+										<ant antfile="build.xml" target="basic.build" dir=".">
+											<property name="lunifera.deployment.p2.origin.dir"
+												value="${lunifera.deployment.p2.origin.dir}" />
+											<property name="associate.sites" value="${associate.p2}" />
+										</ant>
+									</target>
+								</configuration>
+								<goals>
+									<goal>run</goal>
+								</goals>
+							</execution>
+						</executions>
+						<dependencies>
+							<dependency>
+								<groupId>org.apache.ant</groupId>
+								<artifactId>ant</artifactId>
+								<version>1.8.4</version>
+							</dependency>
+							<dependency>
+								<groupId>ant-contrib</groupId>
+								<artifactId>ant-contrib</artifactId>
+								<version>1.0b3</version>
+								<exclusions>
+									<exclusion>
+										<groupId>ant</groupId>
+										<artifactId>ant</artifactId>
+									</exclusion>
+								</exclusions>
+							</dependency>
+							<dependency>
+								<groupId>net.sf.saxon</groupId>
+								<artifactId>Saxon-HE</artifactId>
+								<version>9.4</version>
+							</dependency>
+						</dependencies>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+
+</project>

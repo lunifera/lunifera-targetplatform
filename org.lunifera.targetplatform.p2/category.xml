@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.lunifera.targetplatform.feature">
+      <category name="lunifera_targetplatform"/>
+   </feature>
+   <category-def name="lunifera_targetplatform" label="Lunifera TargetPlatform"/>
+</site>
