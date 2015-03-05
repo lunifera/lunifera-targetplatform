@@ -20,7 +20,7 @@
 		<version>0.9.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>org.lunifera.targetplatform.feature</artifactId>
+	<artifactId>org.lunifera.targetplatform.feature.ide</artifactId>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>

@@ -46,7 +46,8 @@
 	</properties>
 
 	<modules>
-		<module>org.lunifera.targetplatform.feature</module>
+		<module>org.lunifera.targetplatform.feature.ide</module>
+		<module>org.lunifera.targetplatform.feature.runtime</module>
 	</modules>
 
 	<repositories>

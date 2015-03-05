@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.lunifera.targetplatform.feature"
+      id="org.lunifera.targetplatform.feature.ide"
       label="%featureName"
       version="0.9.1.qualifier"
       provider-name="%providerName"
