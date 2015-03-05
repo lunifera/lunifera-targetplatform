@@ -19,64 +19,268 @@
    </license>
 
    <url>
-      <update label="Lunifera Luna Lastest" url="http://lun.lunifera.org/downloads/p2/lunifera/luna/latest/"/>
+      <update label="Lunifera Luna Latest" url="http://lun.lunifera.org/downloads/p2/lunifera/luna/latest/"/>
    </url>
 
-   <requires>
-      <import feature="org.eclipse.xtext.sdk" version="2.7.3" match="equivalent"/>
-      <import feature="org.eclipse.m2e.feature" version="1.5.0" match="equivalent"/>
-      <import feature="org.eclipse.m2e.logback.feature" version="1.5.0" match="equivalent"/>
-      <import feature="ca.ecliptical.pde.ds" version="1.1.0" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.common" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.common.headless" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.common.headless.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.common.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.dto" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.dto.headless" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.dto.headless.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.dto.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.eclipse.ui" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.eclipse.ui.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.entities" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.entities.headless" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.entities.headless.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dsl.feature.entities.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.dependencies.feature.vaadin" version="7.3.8" match="perfect"/>
-      <import feature="org.lunifera.dependencies.feature.transaction" version="0.3.1" match="equivalent"/>
-      <import feature="org.lunifera.dependencies.feature.atmosphere" version="2.1.2.vaadin6" match="perfect"/>
-      <import feature="org.lunifera.dependencies.feature.jetty.websockets" version="8.1.15" match="perfect"/>
-      <import feature="org.lunifera.xtext.builder.feature.ui.access" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.xtext.builder.feature.ui.access.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.xtext.builder.feature.types" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.xtext.builder.feature.types.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.feature.common" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.feature.common.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.feature.e4eventmanager" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.feature.e4eventmanager.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.feature.resolverhooks" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.feature.resolverhooks.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.vaadin.common" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.vaadin.common.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.vaadin.components" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.vaadin.components.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.vaadin.databinding" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.runtime.web.feature.vaadin.databinding.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.mobile.vaadin.feature.ecview" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.mobile.vaadin.feature.touchkit.source" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.ecview.feature.ide" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.ecview.feature.runtime" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.ide.feature.headless" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.ide.feature.ui" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.tools.graphical.entity.feature.ui" version="0.9.1" match="equivalent"/>
-      <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="equivalent"/>
-      <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="equivalent"/>
-      <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="equivalent"/>
-      <import plugin="org.eclipse.e4.tools"/>
-   </requires>
+   <includes
+         id="org.eclipse.xtext.sdk"
+         version="2.7.3"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.m2e.feature"
+         version="1.5.0"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.m2e.logback.feature"
+         version="1.5.0"
+         search-location="both"/>
+
+   <includes
+         id="ca.ecliptical.pde.ds"
+         version="1.1.0"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.common"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.common.headless"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.common.headless.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.common.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.dto"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.dto.headless"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.dto.headless.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.dto.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.eclipse.ui"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.eclipse.ui.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.entities"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.entities.headless"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.entities.headless.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dsl.feature.entities.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dependencies.feature.vaadin"
+         version="7.3.8"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dependencies.feature.transaction"
+         version="0.3.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dependencies.feature.atmosphere"
+         version="2.1.2.vaadin6"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.dependencies.feature.jetty.websockets"
+         version="8.1.15"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.xtext.builder.feature.ui.access"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.xtext.builder.feature.ui.access.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.xtext.builder.feature.types"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.xtext.builder.feature.types.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.feature.common"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.feature.common.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.feature.e4eventmanager"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.feature.e4eventmanager.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.feature.resolverhooks"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.feature.resolverhooks.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.ecview.presentation.vaadin"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.ecview.presentation.vaadin.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.vaadin.common"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.vaadin.common.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.vaadin.components"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.vaadin.components.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.vaadin.databinding"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.runtime.web.feature.vaadin.databinding.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.mobile.vaadin.feature.ecview"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.mobile.vaadin.feature.ecview.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.mobile.vaadin.feature.touchkit"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.mobile.vaadin.feature.touchkit.source"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.ecview.feature.ide"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.ecview.feature.runtime"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.ide.feature.headless"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.ide.feature.ui"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.lunifera.tools.graphical.entity.feature.ui"
+         version="0.9.1"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.sirius.runtime"
+         version="1.0.1"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.sirius.runtime.ide.ui"
+         version="1.0.1"
+         search-location="both"/>
+
+   <includes
+         id="org.semanticsoft.vaaclipse.tools.feature.ide"
+         version="2.7.3"
+         search-location="both"/>
 
    <plugin
          id="org.lunifera.idesdk.branding"
