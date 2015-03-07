@@ -20,1192 +20,1433 @@
 
    <url>
       <update label="Lunifera Luna Latest" url="http://lun.lunifera.org/downloads/p2/lunifera/luna/latest/"/>
-
    </url>
 
-   <plugin id="ch.qos.logback.classic"
+   <requires>
+      <import feature="org.eclipse.equinox.sdk" version="3.10.2" match="equivalent"/>
+      <import feature="org.eclipse.gemini.dbaccess.feature" version="1.1.0.RELEASE" match="equivalent"/>
+      <import feature="org.eclipse.gemini.dbaccess.h2.feature" version="1.1.0.RELEASE" match="equivalent"/>
+      <import feature="org.eclipse.gemini.dbaccess.hsqldb.feature" version="1.1.0.RELEASE" match="equivalent"/>
+      <import feature="org.eclipse.gemini.dbaccess.mysql.feature" version="1.1.0.RELEASE" match="equivalent"/>
+      <import feature="org.eclipse.gemini.naming.feature" version="1.1.0.RELEASE" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.slf4j"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gwt.thirdparty.guava"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="ch.qos.logback.core"
+   <plugin
+         id="com.google.gwt.thirdparty.streamhtmlparser"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="ch.qos.logback.slf4j"
+   <plugin
+         id="com.google.inject"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.google.guava"
+   <plugin
+         id="com.google.inject.multibindings"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.google.gwt.thirdparty.guava"
+   <plugin
+         id="com.ibm.icu"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.google.gwt.thirdparty.streamhtmlparser"
+   <plugin
+         id="com.springsource.javax.resource"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.google.inject"
+   <plugin
+         id="com.vaadin.client"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
-   <plugin id="com.google.inject.multibindings"
+
+   <plugin
+         id="com.vaadin.client-compiled"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.vaadin.external.atmosphere.runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.ibm.icu"
+   <plugin
+         id="com.vaadin.external.org.slf4j"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.client"
+   <plugin
+         id="com.vaadin.push"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.client-compiled"
+   <plugin
+         id="com.vaadin.server"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.external.atmosphere.runtime"
+   <plugin
+         id="com.vaadin.shared"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.external.org.slf4j"
+   <plugin
+         id="com.vaadin.themes"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.push"
+   <plugin
+         id="javax.annotation"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.server"
+   <plugin
+         id="javax.inject"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.shared"
+   <plugin
+         id="javax.persistence"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="com.vaadin.themes"
+   <plugin
+         id="javax.servlet"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="javax.annotation"
+   <plugin
+         id="javax.transaction"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="javax.inject"
+   <plugin
+         id="javax.transaction.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="javax.persistence"
+   <plugin
+         id="javax.xml"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="javax.servlet"
+   <plugin
+         id="org.antlr.runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="javax.xml"
+   <plugin
+         id="org.apache.aries.transaction.manager"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.antlr.runtime"
+   <plugin
+         id="org.apache.aries.transaction.wrappers"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.batik.css"
+   <plugin
+         id="org.apache.batik.css"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.batik.util"
+   <plugin
+         id="org.apache.batik.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.batik.util.gui"
+   <plugin
+         id="org.apache.batik.util.gui"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.commons.beanutils"
+   <plugin
+         id="org.apache.commons.beanutils"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.commons.collections"
+   <plugin
+         id="org.apache.commons.collections"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.commons.lang"
+   <plugin
+         id="org.apache.commons.lang"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.commons.logging"
+   <plugin
+         id="org.apache.commons.logging"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.derby"
+   <plugin
+         id="org.apache.derby"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.felix.gogo.command"
+   <plugin
+         id="org.apache.felix.gogo.command"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.felix.gogo.runtime"
+   <plugin
+         id="org.apache.felix.gogo.runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.felix.gogo.shell"
+   <plugin
+         id="org.apache.felix.gogo.shell"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.log4j"
+   <plugin
+         id="org.apache.log4j"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.xerces"
+   <plugin
+         id="org.apache.xerces"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.xml.resolver"
+   <plugin
+         id="org.apache.xml.resolver"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.apache.xml.serializer"
+   <plugin
+         id="org.apache.xml.serializer"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.commands"
+   <plugin
+         id="org.eclipse.core.commands"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.contenttype"
+   <plugin
+         id="org.eclipse.core.contenttype"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.databinding"
+   <plugin
+         id="org.eclipse.core.databinding"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.databinding.beans"
+   <plugin
+         id="org.eclipse.core.databinding.beans"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.databinding.observable"
+   <plugin
+         id="org.eclipse.core.databinding.observable"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.databinding.property"
+   <plugin
+         id="org.eclipse.core.databinding.property"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.expressions"
+   <plugin
+         id="org.eclipse.core.expressions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.filesystem"
+   <plugin
+         id="org.eclipse.core.filesystem"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.jobs"
+   <plugin
+         id="org.eclipse.core.jobs"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.resources"
+   <plugin
+         id="org.eclipse.core.resources"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.core.runtime"
+   <plugin
+         id="org.eclipse.core.runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.core.commands"
+   <plugin
+         id="org.eclipse.e4.core.commands"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.core.contexts"
+   <plugin
+         id="org.eclipse.e4.core.contexts"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.core.di"
+   <plugin
+         id="org.eclipse.e4.core.di"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.core.di.extensions"
+   <plugin
+         id="org.eclipse.e4.core.di.extensions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.core.services"
+   <plugin
+         id="org.eclipse.e4.core.services"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.ui.css.core"
+   <plugin
+         id="org.eclipse.e4.ui.css.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.ui.di"
+   <plugin
+         id="org.eclipse.e4.ui.di"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.ui.model.workbench"
+   <plugin
+         id="org.eclipse.e4.ui.model.workbench"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.ui.services"
+   <plugin
+         id="org.eclipse.e4.ui.services"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.e4.ui.workbench"
+   <plugin
+         id="org.eclipse.e4.ui.workbench"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.common"
+   <plugin
+         id="org.eclipse.emf.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.databinding"
+   <plugin
+         id="org.eclipse.emf.databinding"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.ecore"
+   <plugin
+         id="org.eclipse.emf.ecore"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.ecore.change"
+   <plugin
+         id="org.eclipse.emf.ecore.change"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.ecore.edit"
+   <plugin
+         id="org.eclipse.emf.ecore.edit"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.ecore.xcore.lib"
+   <plugin
+         id="org.eclipse.emf.ecore.xcore.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.ecore.xmi"
+   <plugin
+         id="org.eclipse.emf.ecore.xmi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.emf.edit"
+   <plugin
+         id="org.eclipse.emf.edit"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.app"
+   <plugin
+         id="org.eclipse.equinox.app"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.common"
+   <plugin
+         id="org.eclipse.equinox.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.console"
+   <plugin
+         id="org.eclipse.equinox.console"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.coordinator"
+   <plugin
+         id="org.eclipse.equinox.coordinator"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
-   <plugin id="org.eclipse.equinox.ds"
+
+   <plugin
+         id="org.eclipse.equinox.ds"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.event"
+   <plugin
+         id="org.eclipse.equinox.event"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.http.registry"
+   <plugin
+         id="org.eclipse.equinox.http.registry"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.http.servlet"
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.preferences"
+   <plugin
+         id="org.eclipse.equinox.preferences"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.region"
+   <plugin
+         id="org.eclipse.equinox.region"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.registry"
+   <plugin
+         id="org.eclipse.equinox.registry"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.equinox.util"
+   <plugin
+         id="org.eclipse.equinox.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.gemini.dbaccess.derby"
+   <plugin
+         id="org.eclipse.gemini.dbaccess.derby"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.gemini.dbaccess.util"
+   <plugin
+         id="org.eclipse.gemini.dbaccess.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.gemini.jpa"
+   <plugin
+         id="org.eclipse.gemini.jpa"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.gemini.naming"
+   <plugin
+         id="org.eclipse.gemini.naming"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.continuation"
+   <plugin
+         id="org.eclipse.jetty.continuation"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.http"
+   <plugin
+         id="org.eclipse.jetty.http"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.io"
+   <plugin
+         id="org.eclipse.jetty.io"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.security"
+   <plugin
+         id="org.eclipse.jetty.security"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.server"
+   <plugin
+         id="org.eclipse.jetty.server"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.servlet"
+   <plugin
+         id="org.eclipse.jetty.servlet"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.util"
+   <plugin
+         id="org.eclipse.jetty.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.jetty.websocket"
+   <plugin
+         id="org.eclipse.jetty.websocket"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.osgi"
+   <plugin
+         id="org.eclipse.osgi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.osgi.compatibility.state"
+   <plugin
+         id="org.eclipse.osgi.compatibility.state"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.osgi.services"
+   <plugin
+         id="org.eclipse.osgi.services"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.osgi.util"
+   <plugin
+         id="org.eclipse.osgi.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.antlr"
+   <plugin
+         id="org.eclipse.persistence.antlr"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.asm"
+   <plugin
+         id="org.eclipse.persistence.asm"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.core"
+   <plugin
+         id="org.eclipse.persistence.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.jpa"
+   <plugin
+         id="org.eclipse.persistence.jpa"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.jpa.jpql"
+   <plugin
+         id="org.eclipse.persistence.jpa.jpql"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.nosql"
+   <plugin
+         id="org.eclipse.persistence.nosql"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.oracle"
+   <plugin
+         id="org.eclipse.persistence.oracle"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.persistence.oracle.nosql"
+   <plugin
+         id="org.eclipse.persistence.oracle.nosql"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.text"
+   <plugin
+         id="org.eclipse.text"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xsd"
+   <plugin
+         id="org.eclipse.xsd"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtend.lib"
+   <plugin
+         id="org.eclipse.xtend.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtend.lib.macro"
+   <plugin
+         id="org.eclipse.xtend.lib.macro"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext"
+   <plugin
+         id="org.eclipse.xtext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext.common.types"
+   <plugin
+         id="org.eclipse.xtext.common.types"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext.logging"
+   <plugin
+         id="org.eclipse.xtext.logging"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext.util"
+   <plugin
+         id="org.eclipse.xtext.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext.xbase"
+   <plugin
+         id="org.eclipse.xtext.xbase"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext.xbase"
+   <plugin
+         id="org.eclipse.xtext.xbase"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.xtext.xbase.lib"
+   <plugin
+         id="org.eclipse.xtext.xbase.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.json"
+   <plugin
+         id="org.json"
          download-size="0"
          install-size="0"
          version="0.0.20080701"
          unpack="false"/>
 
-   <plugin id="org.jsoup"
+   <plugin
+         id="org.jsoup"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.common.xtext"
+   <plugin
+         id="org.lunifera.dsl.common.xtext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.datatype.lib"
+   <plugin
+         id="org.lunifera.dsl.datatype.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.datatype.xtext"
+   <plugin
+         id="org.lunifera.dsl.datatype.xtext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.dto.lib"
+   <plugin
+         id="org.lunifera.dsl.dto.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.dto.xtext"
+   <plugin
+         id="org.lunifera.dsl.dto.xtext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.entity.xtext"
+   <plugin
+         id="org.lunifera.dsl.entity.xtext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.semantic.common"
+   <plugin
+         id="org.lunifera.dsl.semantic.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.semantic.dto"
+   <plugin
+         id="org.lunifera.dsl.semantic.dto"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.semantic.entity"
+   <plugin
+         id="org.lunifera.dsl.semantic.entity"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.semantic.service"
+   <plugin
+         id="org.lunifera.dsl.semantic.service"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.services.xtext"
+   <plugin
+         id="org.lunifera.dsl.services.xtext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.xtext.lazyresolver"
+   <plugin
+         id="org.lunifera.dsl.xtext.lazyresolver"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.dsl.xtext.lazyresolver.api"
+   <plugin
+         id="org.lunifera.dsl.xtext.lazyresolver.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.common"
+   <plugin
+         id="org.lunifera.ecview.core.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.common.editparts.emf"
+   <plugin
+         id="org.lunifera.ecview.core.common.editparts.emf"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.common.model"
+   <plugin
+         id="org.lunifera.ecview.core.common.model"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.databinding.beans"
+   <plugin
+         id="org.lunifera.ecview.core.databinding.beans"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.databinding.emf"
+   <plugin
+         id="org.lunifera.ecview.core.databinding.emf"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.extension.editparts"
+   <plugin
+         id="org.lunifera.ecview.core.extension.editparts"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.extension.editparts.emf"
+   <plugin
+         id="org.lunifera.ecview.core.extension.editparts.emf"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.extension.model"
+   <plugin
+         id="org.lunifera.ecview.core.extension.model"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.ui.presentation.common"
+   <plugin
+         id="org.lunifera.ecview.core.ui.presentation.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.core.util.emf"
+   <plugin
+         id="org.lunifera.ecview.core.util.emf"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.dsl"
+   <plugin
+         id="org.lunifera.ecview.dsl"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.dsl.lib"
+   <plugin
+         id="org.lunifera.ecview.dsl.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.jetty.manager"
+   <plugin
+         id="org.lunifera.ecview.jetty.manager"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.semantic.uimodel"
+   <plugin
+         id="org.lunifera.ecview.semantic.uimodel"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.semantic.uisemantics"
+   <plugin
+         id="org.lunifera.ecview.semantic.uisemantics"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.uisemantics"
+   <plugin
+         id="org.lunifera.ecview.uisemantics"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.vaadin.servlet.mobile"
+   <plugin
+         id="org.lunifera.ecview.vaadin.servlet.mobile"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.xtext.builder.participant"
+   <plugin
+         id="org.lunifera.ecview.xtext.builder.participant"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.ecview.xtext.builder.participant.i18n"
+   <plugin
+         id="org.lunifera.ecview.xtext.builder.participant.i18n"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.mobile.vaadin.ecview.editparts"
+   <plugin
+         id="org.lunifera.mobile.vaadin.ecview.editparts"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.mobile.vaadin.ecview.editparts.emf"
+   <plugin
+         id="org.lunifera.mobile.vaadin.ecview.editparts.emf"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.mobile.vaadin.ecview.model"
+   <plugin
+         id="org.lunifera.mobile.vaadin.ecview.model"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.mobile.vaadin.ecview.presentation"
+   <plugin
+         id="org.lunifera.mobile.vaadin.ecview.presentation"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.mobile.vaadin.touchkit.osgi"
+   <plugin
+         id="org.lunifera.mobile.vaadin.touchkit.osgi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.mobile.vaadin.widgetset"
+   <plugin
+         id="org.lunifera.mobile.vaadin.widgetset"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.common"
+   <plugin
+         id="org.lunifera.runtime.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.event"
+   <plugin
+         id="org.lunifera.runtime.event"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.web.common"
+   <plugin
+         id="org.lunifera.runtime.web.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.web.ecview.presentation.vaadin"
+   <plugin
+         id="org.lunifera.runtime.web.ecview.presentation.vaadin"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.web.vaadin.common"
+   <plugin
+         id="org.lunifera.runtime.web.vaadin.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.web.vaadin.components"
+   <plugin
+         id="org.lunifera.runtime.web.vaadin.components"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.web.vaadin.databinding"
+   <plugin
+         id="org.lunifera.runtime.web.vaadin.databinding"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.addons.application"
+   <plugin
+         id="org.lunifera.vaaclipse.addons.application"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.addons.common"
+   <plugin
+         id="org.lunifera.vaaclipse.addons.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.addons.common.api"
+   <plugin
+         id="org.lunifera.vaaclipse.addons.common.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.addons.ecview"
+   <plugin
+         id="org.lunifera.vaaclipse.addons.ecview"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.app"
+   <plugin
+         id="org.lunifera.vaaclipse.app"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.ui.preferences.addon"
+   <plugin
+         id="org.lunifera.vaaclipse.ui.preferences.addon"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.vaaclipse.ui.preferences.model"
+   <plugin
+         id="org.lunifera.vaaclipse.ui.preferences.model"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.xtext.builder.metadata.services"
+   <plugin
+         id="org.lunifera.xtext.builder.metadata.services"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.xtext.builder.types.bundles"
+   <plugin
+         id="org.lunifera.xtext.builder.types.bundles"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.xtext.builder.types.loader.api"
+   <plugin
+         id="org.lunifera.xtext.builder.types.loader.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.xtext.builder.types.loader.runtime"
+   <plugin
+         id="org.lunifera.xtext.builder.types.loader.runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.xtext.builder.xbase.setups"
+   <plugin
+         id="org.lunifera.xtext.builder.xbase.setups"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.objectweb.asm"
+   <plugin
+         id="org.objectweb.asm"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.commons"
+   <plugin
+         id="org.semanticsoft.commons"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.e4extension"
+   <plugin
+         id="org.semanticsoft.e4extension"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.e4modelextension"
+   <plugin
+         id="org.semanticsoft.e4modelextension"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.additions"
+   <plugin
+         id="org.semanticsoft.vaaclipse.additions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.api"
+   <plugin
+         id="org.semanticsoft.vaaclipse.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.behaviour"
+   <plugin
+         id="org.semanticsoft.vaaclipse.behaviour"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.contributions"
+   <plugin
+         id="org.semanticsoft.vaaclipse.contributions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.presentation"
+   <plugin
+         id="org.semanticsoft.vaaclipse.presentation"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.publicapi"
+   <plugin
+         id="org.semanticsoft.vaaclipse.publicapi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.resources"
+   <plugin
+         id="org.semanticsoft.vaaclipse.resources"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.theme"
+   <plugin
+         id="org.semanticsoft.vaaclipse.theme"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.util"
+   <plugin
+         id="org.semanticsoft.vaaclipse.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.vaadin.addon.contextmenu"
+   <plugin
+         id="org.semanticsoft.vaaclipse.vaadin.addon.contextmenu"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.vaadin.addon.dndlayout"
+   <plugin
+         id="org.semanticsoft.vaaclipse.vaadin.addon.dndlayout"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.widgets"
+   <plugin
+         id="org.semanticsoft.vaaclipse.widgets"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaaclipse.widgetset.default"
+   <plugin
+         id="org.semanticsoft.vaaclipse.widgetset.default"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.semanticsoft.vaadin"
+   <plugin
+         id="org.semanticsoft.vaadin"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.slf4j.api"
+   <plugin
+         id="org.slf4j.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.w3c.css.sac"
+   <plugin
+         id="org.w3c.css.sac"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.w3c.dom.events"
+   <plugin
+         id="org.w3c.dom.events"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.w3c.dom.smil"
+   <plugin
+         id="org.w3c.dom.smil"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.w3c.dom.svg"
+   <plugin
+         id="org.w3c.dom.svg"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.w3c.flute"
+   <plugin
+         id="org.w3c.flute"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="osgi.enterprise"
+   <plugin
+         id="osgi.enterprise"
          download-size="0"
          install-size="0"
          version="0.0.0"

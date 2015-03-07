@@ -22,35 +22,51 @@
 
 	<artifactId>org.lunifera.targetplatform.feature.runtime</artifactId>
 	<packaging>eclipse-feature</packaging>
+	<name>Lunifera IDE SDK</name>
+	<description>Installs all features required for Lunifera into the IDE</description>
 
 	<dependencies>
-		
+		<dependency>
+			<groupId>javax.resource</groupId>
+			<artifactId>com.springsource.javax.resource</artifactId>
+			<version>1.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.transaction</groupId>
+			<artifactId>org.apache.aries.transaction.manager</artifactId>
+			<version>0.2-incubating</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.transaction</groupId>
+			<artifactId>org.apache.aries.transaction.wrappers</artifactId>
+			<version>0.2-incubating</version>
+		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
-<!-- 			<plugin> -->
-<!-- 				<groupId>org.eclipse.tycho.extras</groupId> -->
-<!-- 				<artifactId>tycho-source-feature-plugin</artifactId> -->
-<!-- 				<version>${tycho-version}</version> -->
-<!-- 				<executions> -->
-<!-- 					<execution> -->
-<!-- 						<id>source-feature</id> -->
-<!-- 						<phase>package</phase> -->
-<!-- 						<goals> -->
-<!-- 							<goal>source-feature</goal> -->
-<!-- 						</goals> -->
-<!-- 					</execution> -->
-<!-- 				</executions> -->
-<!-- 				<configuration> -->
-<!-- 					<labelSuffix> (source)</labelSuffix> -->
-<!-- 					<excludes> -->
-<!-- 						<plugin id="com.ibm.icu" /> -->
-<!-- 						<plugin id="org.apache.commons.cli" /> -->
-<!-- 						<plugin id="com.google.guava" /> -->
-<!-- 					</excludes> -->
-<!-- 				</configuration> -->
-<!-- 			</plugin> -->
+			<!-- <plugin> -->
+			<!-- <groupId>org.eclipse.tycho.extras</groupId> -->
+			<!-- <artifactId>tycho-source-feature-plugin</artifactId> -->
+			<!-- <version>${tycho-version}</version> -->
+			<!-- <executions> -->
+			<!-- <execution> -->
+			<!-- <id>source-feature</id> -->
+			<!-- <phase>package</phase> -->
+			<!-- <goals> -->
+			<!-- <goal>source-feature</goal> -->
+			<!-- </goals> -->
+			<!-- </execution> -->
+			<!-- </executions> -->
+			<!-- <configuration> -->
+			<!-- <labelSuffix> (source)</labelSuffix> -->
+			<!-- <excludes> -->
+			<!-- <plugin id="com.ibm.icu" /> -->
+			<!-- <plugin id="org.apache.commons.cli" /> -->
+			<!-- <plugin id="com.google.guava" /> -->
+			<!-- </excludes> -->
+			<!-- </configuration> -->
+			<!-- </plugin> -->
 			<plugin>
 				<!-- workaround while bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=398250 
 					is not fixed -->
@@ -69,6 +85,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<name>Lunifera IDE SDK</name>
-	<description>Installs all features required for Lunifera into the IDE</description>
+
+
 </project>
