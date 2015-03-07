@@ -22,13 +22,65 @@
       <update label="Lunifera Luna Latest" url="http://lun.lunifera.org/downloads/p2/lunifera/luna/latest/"/>
    </url>
 
-   <requires>
-      <import feature="org.eclipse.equinox.sdk" version="3.10.2" match="equivalent"/>
-      <import feature="org.eclipse.gemini.dbaccess.feature" version="1.1.0.RELEASE" match="equivalent"/>
-      <import feature="org.eclipse.gemini.dbaccess.h2.feature" version="1.1.0.RELEASE" match="equivalent"/>
-      <import feature="org.eclipse.gemini.dbaccess.mysql.feature" version="1.1.0.RELEASE" match="equivalent"/>
-      <import feature="org.eclipse.gemini.naming.feature" version="1.0.4.RELEASE" match="equivalent"/>
-   </requires>
+   <includes
+         id="org.eclipse.equinox.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.compendium.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.core.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.server.core"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.server.jetty"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.server.p2"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.server.servletbridge"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.server.simple"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.serverside.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.weaving.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.gemini.dbaccess.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.gemini.dbaccess.h2.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.gemini.dbaccess.mysql.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.gemini.naming.feature"
+         version="0.0.0"/>
 
    <plugin
          id="ch.qos.logback.classic"
