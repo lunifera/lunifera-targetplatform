@@ -39,30 +39,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.equinox.server.core"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.equinox.server.jetty"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.equinox.server.p2"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.equinox.server.servletbridge"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.equinox.server.simple"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.equinox.serverside.sdk"
-         version="0.0.0"/>
-
-   <includes
          id="org.eclipse.equinox.weaving.sdk"
          version="0.0.0"/>
 
