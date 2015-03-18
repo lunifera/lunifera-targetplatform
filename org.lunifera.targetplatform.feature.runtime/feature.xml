@@ -35,10 +35,6 @@
          version="0.0.0"/>
 
   <includes
-         id="org.eclipse.equinox.server.servletbridge"
-         version="0.0.0"/>
-
-  <includes
          id="org.eclipse.equinox.weaving.sdk"
          version="0.0.0"/>
 
@@ -1867,6 +1863,28 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servletbridge"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.servletbridge.extensionbundle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
          unpack="false"/>
 
 </feature>
