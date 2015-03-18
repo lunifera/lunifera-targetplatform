@@ -23,15 +23,19 @@
    </url>
 
    <includes
-         id="org.eclipse.equinox.sdk"
-         version="0.0.0"/>
-
-   <includes
          id="org.eclipse.equinox.compendium.sdk"
          version="0.0.0"/>
 
    <includes
          id="org.eclipse.equinox.core.feature"
+         version="0.0.0"/>
+
+  <includes
+         id="org.eclipse.equinox.server.p2"
+         version="0.0.0"/>
+
+  <includes
+         id="org.eclipse.equinox.server.servletbridge"
          version="0.0.0"/>
 
   <includes
