@@ -63,6 +63,52 @@
 			<build>
 				<plugins>
 					<plugin>
+						<groupId>org.eclipse.tycho</groupId>
+						<artifactId>target-platform-configuration</artifactId>
+						<configuration>
+							<filters>
+								<filter>
+									<type>eclipse-plugin</type>
+									<id>org.eclipse.xtend.lib</id>
+									<restrictTo>
+										<versionRange>[2.7.3,2.8.0)</versionRange>
+									</restrictTo>
+								</filter>
+								<filter>
+									<type>eclipse-plugin</type>
+									<id>org.eclipse.xtend.lib.macro</id>
+									<restrictTo>
+										<versionRange>[2.7.3,2.8.0)</versionRange>
+									</restrictTo>
+								</filter>
+								<filter>
+									<type>eclipse-plugin</type>
+									<id>org.eclipse.xtext.xbase.lib</id>
+									<restrictTo>
+										<versionRange>[2.7.3,2.8.0)</versionRange>
+									</restrictTo>
+								</filter>
+								<!-- <filter> -->
+								<!-- <type>eclipse-plugin</type> -->
+								<!-- <id>org.eclipse.emf.mwe2.launch</id> -->
+								<!-- <removeAll /> -->
+								<!-- </filter> -->
+								<filter>
+									<type>eclipse-plugin</type>
+									<id>org.eclipse.ui</id>
+									<removeAll />
+								</filter>
+								<filter>
+									<type>eclipse-plugin</type>
+									<id>org.eclipse.e4.core.services</id>
+									<restrictTo>
+										<versionRange>[1.2.0,2.0.0)</versionRange>
+									</restrictTo>
+								</filter>
+							</filters>
+						</configuration>
+					</plugin>
+					<plugin>
 						<artifactId>maven-antrun-plugin</artifactId>
 						<executions>
 							<execution>
