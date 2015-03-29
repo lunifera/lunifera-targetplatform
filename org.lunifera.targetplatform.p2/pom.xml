@@ -56,7 +56,7 @@
 				<gemini-naming-p2>http://download.eclipse.org/gemini/updates/naming/1.0.5/</gemini-naming-p2>
 				<associate.p2>
 					${lunifera.build.eclipse.platform.p2.url},${orbit-site},${xtext-p2},${bpmnmodeler-p2},${drools-p2},
-					${lunifera.build.remote.federated.p2.url},${ecliptical-p2},${ecliptical-backup-p2},${gemini-dbaccess-p2},
+					${ecliptical-p2},${ecliptical-backup-p2},${gemini-dbaccess-p2},
 					${gemini-jpa-p2},${gemini-naming-p2}
 				</associate.p2>
 			</properties>
