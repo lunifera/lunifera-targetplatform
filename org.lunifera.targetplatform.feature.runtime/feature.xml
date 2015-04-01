@@ -30,11 +30,11 @@
          id="org.eclipse.equinox.core.feature"
          version="0.0.0"/>
 
-  <includes
+   <includes
          id="org.eclipse.equinox.server.p2"
          version="0.0.0"/>
 
-  <includes
+   <includes
          id="org.eclipse.equinox.weaving.sdk"
          version="0.0.0"/>
 
@@ -1182,6 +1182,27 @@
          unpack="false"/>
 
    <plugin
+         id="org.lunifera.runtime.jsr303.validation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.runtime.typeprovider.bundlespace"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.runtime.datasource.provider"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.lunifera.runtime.web.common"
          download-size="0"
          install-size="0"
@@ -1474,9 +1495,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-        
-        
-         
+
    <plugin
          id="org.eclipse.osgi"
          download-size="0"
@@ -1702,7 +1721,7 @@
          fragment="true"
          unpack="false"/>
 
-    <plugin
+   <plugin
          id="org.eclipse.equinox.security.macosx.source"
          os="macosx"
          download-size="0"
@@ -1864,7 +1883,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.eclipse.equinox.http.servlet"
          download-size="0"
@@ -1874,6 +1893,20 @@
 
    <plugin
          id="org.eclipse.equinox.http.servletbridge"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.runtime.ecore.bundlespace"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.vaaclipse.addons.ecview.lib"
          download-size="0"
          install-size="0"
          version="0.0.0"
