@@ -53,7 +53,11 @@
    <includes
          id="org.eclipse.gemini.naming.feature"
          version="0.0.0"/>
-
+         
+   <includes
+         id="org.lunifera.dsl.feature.metadata.builder.participant"
+         version="0.0.0"/>
+         
    <plugin
          id="ch.qos.logback.classic"
          download-size="0"
