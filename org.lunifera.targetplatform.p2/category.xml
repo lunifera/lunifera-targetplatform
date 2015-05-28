@@ -3,5 +3,8 @@
    <feature id="org.lunifera.targetplatform.feature.runtime">
       <category name="lunifera_targetplatform"/>
    </feature>
+   <feature id="org.lunifera.targetplatform.feature.runtime.source">
+      <category name="lunifera_targetplatform"/>
+   </feature>
    <category-def name="lunifera_targetplatform" label="Lunifera TargetPlatform"/>
 </site>
