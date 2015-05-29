@@ -145,6 +145,10 @@
 						<plugin id="org.eclipse.equinox.http.servlet" />
 						<feature id="org.eclipse.ecf.core.feature" />
 						<feature id="org.eclipse.ecf.core.ssl.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.ssl.feature" />
 						<feature id="org.eclipse.equinox.compendium.sdk" />
 						<feature id="org.eclipse.equinox.core.feature" />
 						<feature id="org.eclipse.equinox.server.p2" />
