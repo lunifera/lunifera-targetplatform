@@ -39,6 +39,10 @@
          version="0.0.0"/>
 
    <includes
+         id="org.eclipse.ecf.core.ssl.feature"
+         version="0.0.0"/>
+
+   <includes
          id="org.eclipse.equinox.weaving.sdk"
          version="0.0.0"/>
 
