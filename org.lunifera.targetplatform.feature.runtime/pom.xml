@@ -86,6 +86,9 @@
 						<plugin id="org.apache.aries.transaction.wrappers" />
 						<plugin id="org.apache.commons.collections" />
 						<plugin id="org.apache.derby" />
+						<plugin id="org.apache.shiro.core" />
+						<plugin id="org.apache.shiro.quartz" />
+						<plugin id="org.apache.shiro.web" />
 						<plugin id="org.apache.xerces" />
 						<plugin id="org.apache.xml.resolver" />
 						<plugin id="org.apache.xml.serializer" />
