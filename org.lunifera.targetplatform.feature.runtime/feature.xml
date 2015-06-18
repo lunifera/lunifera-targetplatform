@@ -251,6 +251,13 @@
          unpack="false"/>
 
    <plugin
+         id="javax.transaction"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="javax.xml"
          download-size="0"
          install-size="0"
@@ -294,6 +301,13 @@
 
    <plugin
          id="org.apache.batik.util.gui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.beanvalidation"
          download-size="0"
          install-size="0"
          version="0.0.0"
