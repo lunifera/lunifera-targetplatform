@@ -307,13 +307,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.bval.org.apache.bval.bundle"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.commons.beanutils"
          download-size="0"
          install-size="0"
@@ -340,20 +333,6 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-<!--
-   <plugin
-         id="org.apache.commons.weaver"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.weaver.privilizer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/> -->
 
    <plugin
          id="org.apache.derby"
