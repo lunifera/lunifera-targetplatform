@@ -23,7 +23,7 @@
 	<artifactId>org.lunifera.targetplatform.feature.runtime</artifactId>
 	<packaging>eclipse-feature</packaging>
 	<name>Lunifera IDE SDK</name>
-	<description>Installs all features required for Lunifera into the IDE</description>
+	<description>Provides all features required for the Lunifera runtime</description>
 
 	<dependencies>
 		<dependency>
@@ -45,6 +45,31 @@
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
 			<version>2.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.bval</groupId>
+			<artifactId>org.apache.bval.bundle</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-weaver-processor</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-weaver-privilizer</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-weaver-privilizer-api</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
 		</dependency>
 	</dependencies>
 
