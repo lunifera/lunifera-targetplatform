@@ -105,6 +105,7 @@
 						<plugin id="com.vaadin.shared" />
 						<plugin id="com.vaadin.themes" />
 						<plugin id="javax.persistence" />
+						<plugin id="javax.transaction" />
 						<plugin id="javax.transaction.source" />
 						<plugin id="javax.xml" />
 						<plugin id="org.apache.aries.transaction.manager" />
