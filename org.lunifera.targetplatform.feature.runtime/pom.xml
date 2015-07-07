@@ -22,7 +22,7 @@
 
 	<artifactId>org.lunifera.targetplatform.feature.runtime</artifactId>
 	<packaging>eclipse-feature</packaging>
-	<name>Lunifera IDE SDK</name>
+	<name>Lunifera Targetplatform (Runtime)</name>
 	<description>Provides all features required for the Lunifera runtime</description>
 
 	<dependencies>
