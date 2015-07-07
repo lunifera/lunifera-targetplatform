@@ -104,6 +104,7 @@
 						<plugin id="com.vaadin.server" />
 						<plugin id="com.vaadin.shared" />
 						<plugin id="com.vaadin.themes" />
+						<plugin id="javax.annotation" />
 						<plugin id="javax.persistence" />
 						<plugin id="javax.transaction" />
 						<plugin id="javax.transaction.source" />
