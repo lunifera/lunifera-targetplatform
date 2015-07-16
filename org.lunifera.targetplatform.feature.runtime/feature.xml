@@ -328,6 +328,13 @@
          unpack="false"/>
 
    <plugin
+         id="org.apache.commons.lang3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.apache.commons.logging"
          download-size="0"
          install-size="0"
@@ -1395,119 +1402,119 @@
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.commons"
+         id="org.lunifera.commons"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.e4extension"
+         id="org.lunifera.e4extension"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.e4modelextension"
+         id="org.lunifera.e4modelextension"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.additions"
+         id="org.lunifera.vaaclipse.additions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.api"
+         id="org.lunifera.vaaclipse.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.behaviour"
+         id="org.lunifera.vaaclipse.behaviour"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.contributions"
+         id="org.lunifera.vaaclipse.contributions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.presentation"
+         id="org.lunifera.vaaclipse.presentation"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.publicapi"
+         id="org.lunifera.vaaclipse.publicapi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.resources"
+         id="org.lunifera.vaaclipse.resources"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.theme"
+         id="org.lunifera.vaaclipse.theme"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.util"
+         id="org.lunifera.vaaclipse.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.vaadin.addon.contextmenu"
+         id="org.lunifera.vaaclipse.vaadin.addon.contextmenu"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.vaadin.addon.dndlayout"
+         id="org.lunifera.vaaclipse.vaadin.addon.dndlayout"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.widgets"
+         id="org.lunifera.vaaclipse.widgets"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaaclipse.widgetset.default"
+         id="org.lunifera.vaaclipse.widgetset.default"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.semanticsoft.vaadin"
+         id="org.lunifera.vaadin"
          download-size="0"
          install-size="0"
          version="0.0.0"
