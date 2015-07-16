@@ -82,6 +82,9 @@
          id="org.lunifera.dsl.feature.metadata.builder.participant"
          version="0.0.0"/>
          
+   <import feature="org.lunifera.dependencies.feature.beanvalidation" version="0.5.0" match="equivalent"/>
+         
+         
    <plugin
          id="ch.qos.logback.classic"
          download-size="0"
@@ -245,13 +248,6 @@
 
    <plugin
          id="javax.transaction.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="javax.transaction"
          download-size="0"
          install-size="0"
          version="0.0.0"
