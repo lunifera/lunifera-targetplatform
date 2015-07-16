@@ -1402,119 +1402,119 @@
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.commons"
+         id="org.semanticsoft.commons"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.e4extension"
+         id="org.semanticsoft.e4extension"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.e4modelextension"
+         id="org.semanticsoft.e4modelextension"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.additions"
+         id="org.semanticsoft.vaaclipse.additions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.api"
+         id="org.semanticsoft.vaaclipse.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.behaviour"
+         id="org.semanticsoft.vaaclipse.behaviour"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.contributions"
+         id="org.semanticsoft.vaaclipse.contributions"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.presentation"
+         id="org.semanticsoft.vaaclipse.presentation"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.publicapi"
+         id="org.semanticsoft.vaaclipse.publicapi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.resources"
+         id="org.semanticsoft.vaaclipse.resources"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.theme"
+         id="org.semanticsoft.vaaclipse.theme"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.util"
+         id="org.semanticsoft.vaaclipse.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.vaadin.addon.contextmenu"
+         id="org.semanticsoft.vaaclipse.vaadin.addon.contextmenu"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.vaadin.addon.dndlayout"
+         id="org.semanticsoft.vaaclipse.vaadin.addon.dndlayout"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.widgets"
+         id="org.semanticsoft.vaaclipse.widgets"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaaclipse.widgetset.default"
+         id="org.semanticsoft.vaaclipse.widgetset.default"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.vaadin"
+         id="org.semanticsoft.vaadin"
          download-size="0"
          install-size="0"
          version="0.0.0"
