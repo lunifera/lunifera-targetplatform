@@ -112,6 +112,7 @@
 						<plugin id="org.apache.aries.transaction.manager" />
 						<plugin id="org.apache.aries.transaction.wrappers" />
 						<plugin id="org.apache.commons.collections" />
+						<plugin id="org.apache.commons.lang3" />
 						<plugin id="org.apache.derby" />
 						<plugin id="org.apache.shiro.core" />
 						<plugin id="org.apache.shiro.quartz" />
