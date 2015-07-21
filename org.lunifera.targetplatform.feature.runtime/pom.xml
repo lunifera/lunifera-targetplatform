@@ -22,8 +22,8 @@
 
 	<artifactId>org.lunifera.targetplatform.feature.runtime</artifactId>
 	<packaging>eclipse-feature</packaging>
-	<name>Lunifera IDE SDK</name>
-	<description>Installs all features required for Lunifera into the IDE</description>
+	<name>Lunifera Targetplatform (Runtime)</name>
+	<description>Provides all features required for the Lunifera runtime</description>
 
 	<dependencies>
 		<dependency>
@@ -46,6 +46,31 @@
 			<artifactId>hsqldb</artifactId>
 			<version>2.0.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.bval</groupId>
+			<artifactId>org.apache.bval.bundle</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-weaver-processor</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-weaver-privilizer</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-weaver-privilizer-api</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -66,7 +91,104 @@
 				<configuration>
 					<labelSuffix> (source)</labelSuffix>
 					<excludes>
+						<plugin id="com.ibm.icu" />
+						<plugin id="org.apache.commons.cli" />
+						<plugin id="com.google.gwt.thirdparty.guava" />
+						<plugin id="com.google.gwt.thirdparty.streamhtmlparser" />
+						<plugin id="com.springsource.javax.resource" />
+						<plugin id="com.vaadin.client" />
+						<plugin id="com.vaadin.client-compiled" />
+						<plugin id="com.vaadin.external.atmosphere.runtime" />
+						<plugin id="com.vaadin.external.org.slf4j" />
+						<plugin id="com.vaadin.push" />
+						<plugin id="com.vaadin.server" />
+						<plugin id="com.vaadin.shared" />
+						<plugin id="com.vaadin.themes" />
+						<plugin id="javax.annotation" />
+						<plugin id="javax.persistence" />
+						<plugin id="javax.transaction" />
+						<plugin id="javax.transaction.source" />
+						<plugin id="javax.xml" />
+						<plugin id="org.apache.aries.transaction.manager" />
+						<plugin id="org.apache.aries.transaction.wrappers" />
+						<plugin id="org.apache.commons.collections" />
+						<plugin id="org.apache.commons.lang3" />
+						<plugin id="org.apache.derby" />
+						<plugin id="org.apache.felix.gogo.command" />
+						<plugin id="org.apache.felix.gogo.command.source" />
+						<plugin id="org.apache.felix.gogo.runtime" />
+						<plugin id="org.apache.felix.gogo.runtime.source" />
+						<plugin id="org.apache.felix.gogo.shell" />
+						<plugin id="org.apache.felix.gogo.shell.source" />
+						<plugin id="org.apache.mina.core.source" />
+						<plugin id="org.apache.shiro.core" />
+						<plugin id="org.apache.shiro.quartz" />
+						<plugin id="org.apache.shiro.web" />
+						<plugin id="org.apache.xerces" />
+						<plugin id="org.apache.xml.resolver" />
+						<plugin id="org.apache.xml.serializer" />
+						<plugin id="org.eclipse.gemini.dbaccess.derby" />
+						<plugin id="org.eclipse.gemini.dbaccess.util" />
+						<plugin id="org.eclipse.gemini.jpa" />
+						<plugin id="org.eclipse.gemini.naming" />
+						<plugin id="org.eclipse.jetty.websocket" />
+						<plugin id="org.eclipse.persistence.asm" />
+						<plugin id="org.eclipse.persistence.core" />
+						<plugin id="org.eclipse.persistence.jpa" />
+						<plugin id="org.eclipse.persistence.jpa.jpql" />
+						<plugin id="org.eclipse.xtext.xbase" />
+						<plugin id="org.json" />
+						<plugin id="org.w3c.flute" />
+						<plugin id="osgi.enterprise" />
+						<plugin id="org.eclipse.osgi" />
+						<plugin id="org.eclipse.osgi.compatibility.state" />
+						<plugin id="org.eclipse.osgi.compatibility.state.source" />
+						<plugin id="org.eclipse.osgi.services" />
+						<plugin id="org.eclipse.osgi.services.source" />
+						<plugin id="org.eclipse.osgi.source" />
+						<plugin id="org.eclipse.equinox.common" />
+						<plugin id="org.eclipse.equinox.common.source" />
+						<plugin id="org.eclipse.equinox.launcher.source" />
+						<plugin id="org.eclipse.equinox.registry" />
+						<plugin id="org.eclipse.equinox.registry.source" />
+						<plugin id="org.eclipse.equinox.supplement.source" />
+						<plugin id="org.eclipse.equinox.transforms.xslt.source" />
+						<plugin id="org.eclipse.equinox.transforms.hook.source" />
+						<plugin id="org.eclipse.osgi.util" />
+						<plugin id="org.eclipse.osgi.util.source" />
+						<plugin id="org.eclipse.equinox.concurrent.source" />
+						<plugin id="org.eclipse.equinox.simpleconfigurator.source" />
+						<plugin id="org.eclipse.equinox.security.win32.x86" />
+						<plugin id="org.eclipse.equinox.security.win32.x86.source" />
+						<plugin id="org.eclipse.equinox.security.win32.x86_64.source" />
+						<plugin id="org.eclipse.equinox.security.macosx.source" />
+						<plugin id="org.eclipse.equinox.security.source" />
+						<plugin id="org.eclipse.equinox.region" />
+						<plugin id="org.eclipse.equinox.region.source" />
+						<plugin id="org.eclipse.equinox.console" />
+						<plugin id="org.eclipse.equinox.console.source" />
+						<plugin id="org.eclipse.equinox.console.ssh.source" />
+						<plugin id="org.eclipse.equinox.console.jaas.fragment" />
+						<plugin id="org.apache.sshd.core.source" />
+						<plugin id="org.eclipse.equinox.bidi.source" />
 						<plugin id="org.lunifera.runtime.logback.fragment.source" />
+						<plugin id="org.slf4j.api" />
+						<plugin id="org.slf4j.api.source" />
+						<plugin id="org.eclipse.equinox.http.servlet" />
+						<feature id="org.eclipse.ecf.core.feature" />
+						<feature id="org.eclipse.ecf.core.ssl.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" />
+						<feature id="org.eclipse.ecf.filetransfer.ssl.feature" />
+						<feature id="org.eclipse.equinox.compendium.sdk" />
+						<feature id="org.eclipse.equinox.core.feature" />
+						<feature id="org.eclipse.equinox.server.p2" />
+						<feature id="org.eclipse.equinox.weaving.sdk" />
+						<feature id="org.eclipse.gemini.dbaccess.feature" />
+						<feature id="org.eclipse.gemini.dbaccess.h2.feature" />
+						<feature id="org.eclipse.gemini.dbaccess.mysql.feature" />
+						<feature id="org.eclipse.gemini.naming.feature" />
 					</excludes>
 				</configuration>
 			</plugin>

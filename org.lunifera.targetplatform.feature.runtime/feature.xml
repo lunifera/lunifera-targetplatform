@@ -35,6 +35,30 @@
          version="0.0.0"/>
 
    <includes
+         id="org.eclipse.ecf.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.core.ssl.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.filetransfer.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.filetransfer.httpclient4.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.filetransfer.ssl.feature"
+         version="0.0.0"/>
+
+   <includes
          id="org.eclipse.equinox.weaving.sdk"
          version="0.0.0"/>
 
@@ -53,7 +77,14 @@
    <includes
          id="org.eclipse.gemini.naming.feature"
          version="0.0.0"/>
-
+         
+   <includes
+         id="org.lunifera.dsl.feature.metadata.builder.participant"
+         version="0.0.0"/>
+         
+   <import feature="org.lunifera.dependencies.feature.beanvalidation" version="0.5.0" match="equivalent"/>
+         
+         
    <plugin
          id="ch.qos.logback.classic"
          download-size="0"
@@ -184,7 +215,7 @@
          id="javax.annotation"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.1.0.v201108011116"
          unpack="false"/>
 
    <plugin
@@ -293,6 +324,13 @@
          unpack="false"/>
 
    <plugin
+         id="org.apache.commons.lang3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.apache.commons.logging"
          download-size="0"
          install-size="0"
@@ -329,6 +367,30 @@
 
    <plugin
          id="org.apache.log4j"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+
+   <plugin
+         id="org.apache.shiro.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+
+   <plugin
+         id="org.apache.shiro.quartz"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+
+   <plugin
+         id="org.apache.shiro.web"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1182,6 +1244,20 @@
          unpack="false"/>
 
    <plugin
+         id="org.lunifera.runtime.logback.fragment"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.runtime.logback.fragment.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.lunifera.runtime.jsr303.validation"
          download-size="0"
          install-size="0"
@@ -1260,6 +1336,13 @@
 
    <plugin
          id="org.lunifera.vaaclipse.addons.ecview"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.vaaclipse.addons.perspective"
          download-size="0"
          install-size="0"
          version="0.0.0"
