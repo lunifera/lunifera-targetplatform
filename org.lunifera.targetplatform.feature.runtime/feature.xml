@@ -77,11 +77,11 @@
    <includes
          id="org.eclipse.gemini.naming.feature"
          version="0.0.0"/>
-         
+
    <includes
          id="org.lunifera.dsl.feature.metadata.builder.participant"
          version="0.0.0"/>
-         
+
    <plugin
          id="ch.qos.logback.classic"
          download-size="0"
@@ -362,7 +362,6 @@
          version="0.0.0"
          unpack="false"/>
 
-
    <plugin
          id="org.apache.shiro.core"
          download-size="0"
@@ -370,14 +369,12 @@
          version="0.0.0"
          unpack="false"/>
 
-
    <plugin
          id="org.apache.shiro.quartz"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
 
    <plugin
          id="org.apache.shiro.web"
@@ -710,13 +707,6 @@
 
    <plugin
          id="org.eclipse.gemini.jpa"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.gemini.naming"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1172,6 +1162,13 @@
 
    <plugin
          id="org.lunifera.ecview.xtext.builder.participant.i18n"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.lunifera.org.eclipse.gemini.naming"
          download-size="0"
          install-size="0"
          version="0.0.0"
