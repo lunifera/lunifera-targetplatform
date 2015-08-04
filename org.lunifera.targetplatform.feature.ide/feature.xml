@@ -278,7 +278,7 @@
          search-location="both"/>
 
    <includes
-         id="org.semanticsoft.vaaclipse.tools.feature.ide"
+         id="org.lunifera.vaaclipse.tools.feature.ide"
          version="2.7.3"
          search-location="both"/>
 
